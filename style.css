@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.cabeca {
+    display: block;
+    background-color: #191919;
+}
+
+.titulo {
+    margin-left: 150px;
+    font-size: 50px;
+    color: white;
+    background-color: #191919;
+}
+
+.foto-perfil {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+.meu-nome {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 12px;
+    color: white;
+}
+
+.sub-titulo {
+    font-size: 25px;
+    font-weight: 500;
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+}
+
+span {
+    color: rgb(66, 255, 0);
+}
+
+.sobre-min {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: black;
+}
+
+.conteiner-um {
+    display: block;
+    width: 50%;
+}
+
+.sobre-min h1 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 45px;
+}
+
+.sobre-min img {
+    height: 500px;
+    width: 100%;
+}
+
+.conteiner-dois {
+    background: rgba(0, 0, 0, 0.733);
+    width: 100%;
+}
+
+.sobre-min p {
+    font-size: 23px;
+    margin: 0 10px;
+    margin-top: 6%;
+    padding: 0 40px;
+    color: rgb(255, 255, 255);
+}
+
+b {
+    color: rgb(250, 203, 142);
+}
+
+.projetos {
+    background-color: #191919;
+    padding: 50px;
+    padding-bottom: 100px;
+}
+
+.projetos h2 {
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    background-color: #191919;
+}
+
+.card {
+    background-color: #000000;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: center;
+}
+
+.card img {
+    height: 150px;
+}
+
+.card h5 {
+    color: white;
+    font-size: 24px;
+}
+
+.card p {
+    color: #b9e2ba;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.card a {
+    background-color: rgba(66, 255, 0, 1);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.card a:hover {
+    background-color: transparent;
+    border: 2px solid rgba(66, 255, 0, 1);
+}
+
+.card-projetos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+footer {
+    height: 250px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h5 {
+    color: white;
+    font-size: 30px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social img {
+    height: 24px;
+    border-radius: 50%;
+}
+
+.social a {
+    background-color:rgba(66, 255, 0, 1) ;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+@media screen and (max-width:912px) {
+.conteiner-um {
+    display: none;
+}
+ }
