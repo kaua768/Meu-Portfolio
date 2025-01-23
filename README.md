@@ -5,5 +5,3 @@
 <H2>Tecnologias utilizadas:</H2>
 <P>-HTML</P>
 <P>-CSS</P>
-<img src="">
-
